@@ -10,7 +10,6 @@ const app = express();
 app.use(cors());
 app.use(express.json()); // replaces body-parser
 
-// Routes
 app.use('/api/items', itemRoutes);
 
 // Connect to MongoDB and start server
